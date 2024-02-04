@@ -2,7 +2,7 @@ dotnet0:
   build:
     base: [ dotnet@6 ]
     build:
-      - dotnet build app -o app
-    deploy: [ app ]
+      - dotnet build
+    deploy: [ . ]
   run:
-    start: cd app && dotnet dnet.dll
+    start: dotnet run
