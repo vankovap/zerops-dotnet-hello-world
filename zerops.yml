@@ -5,4 +5,4 @@ dotnet0:
       - dotnet build
     deploy: [ . ]
   run:
-    start: dotnet run
+    start: dotnet /bin/Debug/net6.0/zerops-dotnet-hello-world.dll

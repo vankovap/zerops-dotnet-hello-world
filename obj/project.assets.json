@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vankovap/Documents/Projects/dotnet/zerops-dotnet-hello-world/HelloWorld.csproj",
-      "projectName": "HelloWorld",
-      "projectPath": "/home/vankovap/Documents/Projects/dotnet/zerops-dotnet-hello-world/HelloWorld.csproj",
+      "projectUniqueName": "/home/vankovap/Documents/Projects/dotnet/zerops-dotnet-hello-world/zerops-dotnet-hello-world.csproj",
+      "projectName": "zerops-dotnet-hello-world",
+      "projectPath": "/home/vankovap/Documents/Projects/dotnet/zerops-dotnet-hello-world/zerops-dotnet-hello-world.csproj",
       "packagesPath": "/home/vankovap/.nuget/packages/",
       "outputPath": "/home/vankovap/Documents/Projects/dotnet/zerops-dotnet-hello-world/obj/",
       "projectStyle": "PackageReference",
