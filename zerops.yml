@@ -7,4 +7,4 @@ zerops:
     deploy:
       - ./app/~
   run:
-      start: dotnet ./dotnet.dll
+      start: dotnet ./zerops-dotnet-hello-world.dll
