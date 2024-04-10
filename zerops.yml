@@ -5,6 +5,6 @@ zerops:
     buildCommands:
       - dotnet publish -c Release -o app
     deploy:
-      - ./dotnet/app/~
+      - ./app/~
   run:
       start: dotnet ./dotnet.dll
