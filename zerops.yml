@@ -3,7 +3,9 @@ zerops:
   build:
     base: dotnet@6
     buildCommands:
-      - dotnet publish -c Release -o app
+      - |
+        cd dotnet
+        dotnet publish -c Release -o publish
     deploy:
       - ./app/~
   run:
