@@ -2,9 +2,9 @@ zerops:
 - setup: helloworld
   build:
     base: dotnet@6
-    build:
+    buildCommands:
       - dotnet publish -c Release -o app
-      deploy:
-        - ./dotnet/app/~
+    deploy:
+      - ./dotnet/app/~
   run:
       start: dotnet ./dotnet.dll
