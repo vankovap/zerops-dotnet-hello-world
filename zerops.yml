@@ -7,6 +7,6 @@ zerops:
         cd dotnet
         dotnet publish -c Release -o publish
     deploy:
-      - ./app/~
+      - ./dotnet/app/~
   run:
       start: dotnet ./dotnet.dll
