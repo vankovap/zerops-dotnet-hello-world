@@ -1,8 +1,10 @@
-dotnet0:
+zerops:
+- setup: helloworld
   build:
-    base: [ dotnet@6 ]
+    base: dotnet@6
     build:
-      - dotnet build
-    deploy: [ . ]
+      - dotnet publish -c Release -o app
+      deploy:
+        - ./dotnet/app/~
   run:
-    start: dotnet /bin/Debug/net6.0/zerops-dotnet-hello-world.dll
+      start: dotnet ./dotnet.dll
